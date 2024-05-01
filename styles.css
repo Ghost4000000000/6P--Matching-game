@@ -1,6 +1,6 @@
 body {
     margin: 1em;
-    background: lightpink;
+    background: lightblue;
     font-family: "Flamenco";
     text-align: center;
     margin: 0 0 10px 0;
@@ -14,7 +14,7 @@ game {
 .card {
     display: inline-block;
     /* DO NOT CHANGE display: inline-block */
-    background-color: rgba(0, 0, 0, 0.37);
+    background-color:pink;
     background-size: 80px 120px;
     width: 80px;
     height: 120px;
