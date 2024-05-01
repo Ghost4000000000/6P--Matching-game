@@ -28,6 +28,8 @@ buttonShow.onclick = function() {
             "<div style='background-image: url(" + 
             card +
             ")' class='card'>");
+         let audio = document.querySelector(".audio");
+    audio.play();
     }
 };
 
@@ -42,7 +44,8 @@ buttonDouble.onclick = function() {
         }
     console.log("Now the deck has " + cards.length + "cards.");
     buttonDouble.style.color = "silver";
-
+let audio = document.querySelector(".audio2");
+    audio.play();
 };
 // Button to Shuffle Cards
 buttonShuffle.onclick = function() {
@@ -87,5 +90,5 @@ buttonFlip.onclick = function() {
 // (It won't work until we finish writing it.)
 $(document).click(function(event) {
     // Get the id property of the clicked thing.
-    let clickedId = event.target.id;
+    
 });
